@@ -12,7 +12,6 @@ namespace StableMarriage
 {
     public partial class FormWelcome : Form
     {
-        int totalPeople;
         public FormWelcome()
         {
             InitializeComponent();
