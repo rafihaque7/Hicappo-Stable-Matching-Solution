@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StableMarriage", "StableMarriage\StableMarriage.csproj", "{3F9376CE-DDEB-456D-A7F9-6A9A14457C2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F9376CE-DDEB-456D-A7F9-6A9A14457C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9376CE-DDEB-456D-A7F9-6A9A14457C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9376CE-DDEB-456D-A7F9-6A9A14457C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9376CE-DDEB-456D-A7F9-6A9A14457C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B728A311-E5C2-445A-B716-EE9F07921CE0}
+	EndGlobalSection
+EndGlobal
