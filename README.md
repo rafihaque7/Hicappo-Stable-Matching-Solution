@@ -1,4 +1,4 @@
-# Hicappo-Stable-Matching-Solution
+# Hicappo Stable Matching Solution
 An implementation of Gale Shapeley's stable marriage algorithm using C#.
 
 **What does the program do?**
