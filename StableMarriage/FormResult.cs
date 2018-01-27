@@ -35,10 +35,13 @@ namespace StableMarriage
 
             for (int i = 0; i < halfCount; i++)
             {
-                str += arrMaleName[i].Text + " is engaged to " + arrFemaleName[engagedMen[i]].Text + "\n";
+                str += arrMaleName[i].Text;
+                str += " is paired with ";
+                str+= arrFemaleName[engagedMen[i]].Text + "\n";
             }
 
             labelResult.Text = str;
+            
 
 
         }

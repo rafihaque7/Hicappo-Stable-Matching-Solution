@@ -34,9 +34,10 @@
             // labelResult
             // 
             this.labelResult.AutoSize = true;
-            this.labelResult.Location = new System.Drawing.Point(44, 51);
+            this.labelResult.Font = new System.Drawing.Font("Verdana", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelResult.Location = new System.Drawing.Point(12, 9);
             this.labelResult.Name = "labelResult";
-            this.labelResult.Size = new System.Drawing.Size(35, 13);
+            this.labelResult.Size = new System.Drawing.Size(226, 78);
             this.labelResult.TabIndex = 0;
             this.labelResult.Text = "label1";
             // 
