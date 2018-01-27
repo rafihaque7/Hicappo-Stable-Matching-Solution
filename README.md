@@ -2,7 +2,7 @@
 An implementation of Gale Shapeley's stable marriage algorithm using C#.
 
 **What does the program do?**
->  Create a heterosexual stable matching pairs give names and preferences
+>  Create a heterosexual stable matching pairs given names and preferences
 
 **What even is Stable matching?**
 > https://www.youtube.com/watch?v=Qcv1IqHWAzg
