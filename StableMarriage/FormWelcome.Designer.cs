@@ -39,9 +39,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(40, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(727, 128);
+            this.label2.Size = new System.Drawing.Size(550, 192);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Welcome to Couple Pairing Program!\r\nBy Rafi Haque\r\n";
+            this.label2.Text = "Hicappo Matching Solution \r\nBy Rafi Haque\r\n\r\n";
             // 
             // buttonGetstarted
             // 
@@ -54,14 +54,14 @@
             this.buttonGetstarted.UseVisualStyleBackColor = true;
             this.buttonGetstarted.Click += new System.EventHandler(this.buttonGetstarted_Click);
             // 
-            // Form1
+            // FormWelcome
             // 
             this.BackColor = System.Drawing.SystemColors.ControlText;
             this.BackgroundImage = global::StableMarriage.Properties.Resources.WP_Elefantasia_2560x1440_00000;
             this.ClientSize = new System.Drawing.Size(1087, 565);
             this.Controls.Add(this.buttonGetstarted);
             this.Controls.Add(this.label2);
-            this.Name = "Form1";
+            this.Name = "FormWelcome";
             this.Text = "Stable Marriage";
             this.ResumeLayout(false);
             this.PerformLayout();

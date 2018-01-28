@@ -36,7 +36,7 @@ namespace StableMarriage
             for (int i = 0; i < halfCount; i++)
             {
                 str += arrMaleName[i].Text;
-                str += " is paired with ";
+                str += " - ";
                 str+= arrFemaleName[engagedMen[i]].Text + "\n";
             }
 
