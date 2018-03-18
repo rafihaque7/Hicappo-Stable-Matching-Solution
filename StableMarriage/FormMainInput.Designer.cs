@@ -208,7 +208,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMainInput";
-            this.Text = "FormMainInput";
+            this.Text = "Hicappo Stable Matching Solution";
             this.ResumeLayout(false);
             this.PerformLayout();
 

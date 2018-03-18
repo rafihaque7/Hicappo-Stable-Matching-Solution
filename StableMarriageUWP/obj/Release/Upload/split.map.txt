@@ -1,0 +1,13 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Release\Upload\split.pri"			"resources.pri"
+"C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Release\PackageUploadLayout\WinMetadata\Windows.winmd"			"WinMetadata\Windows.winmd"
+"C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Release\PackageUploadLayout\Assets\Wide310x150Logo.scale-200.png"			"Assets\Wide310x150Logo.scale-200.png"
+"C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Release\PackageUploadLayout\Assets\StoreLogo.png"			"Assets\StoreLogo.png"
+"C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Release\PackageUploadLayout\Assets\Square44x44Logo.scale-200.png"			"Assets\Square44x44Logo.scale-200.png"
+"C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Release\PackageUploadLayout\Assets\Square44x44Logo.targetsize-24_altform-unplated.png"			"Assets\Square44x44Logo.targetsize-24_altform-unplated.png"
+"C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Release\PackageUploadLayout\Assets\Square150x150Logo.scale-200.png"			"Assets\Square150x150Logo.scale-200.png"
+"C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Release\PackageUploadLayout\Assets\LockScreenLogo.scale-200.png"			"Assets\LockScreenLogo.scale-200.png"

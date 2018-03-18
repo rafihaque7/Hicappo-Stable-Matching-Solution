@@ -84,7 +84,6 @@
             this.Controls.Add(this.buttonUp);
             this.Controls.Add(this.listViewPreference);
             this.Name = "FormPreference";
-            this.Text = "FormPreference";
             this.ResumeLayout(false);
             this.PerformLayout();
 

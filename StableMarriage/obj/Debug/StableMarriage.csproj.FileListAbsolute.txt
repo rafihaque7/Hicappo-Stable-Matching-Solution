@@ -17,3 +17,4 @@ C:\Users\rafisantu\source\repos\StableMarriage\StableMarriage\obj\Debug\StableMa
 C:\Users\rafisantu\source\repos\StableMarriage\StableMarriage\obj\Debug\StableMarriage.application
 C:\Users\rafisantu\source\repos\StableMarriage\StableMarriage\obj\Debug\StableMarriage.exe
 C:\Users\rafisantu\source\repos\StableMarriage\StableMarriage\obj\Debug\StableMarriage.pdb
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriage\obj\Debug\StableMarriage.csprojResolveAssemblyReference.cache

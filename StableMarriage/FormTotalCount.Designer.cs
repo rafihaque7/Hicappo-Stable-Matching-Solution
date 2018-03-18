@@ -74,7 +74,7 @@
             this.Controls.Add(this.textTotalCount);
             this.Controls.Add(this.label1);
             this.Name = "FormTotalCount";
-            this.Text = "FormTotalCount";
+            this.Text = "Hicappo Stable Matching Solution";
             this.ResumeLayout(false);
             this.PerformLayout();
 

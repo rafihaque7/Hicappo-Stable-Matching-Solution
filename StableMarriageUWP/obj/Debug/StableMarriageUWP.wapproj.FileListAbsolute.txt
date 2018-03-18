@@ -1,0 +1,17 @@
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Debug\resources.pri
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Debug\AppxManifest.xml
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Debug\StableMarriageUWP.build.appxrecipe
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\StableMarriageUWP.wapprojResolveAssemblyReference.cache
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\StableMarriageUWP.wapproj.CoreCompileInputs.cache
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\priconfig.xml
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\priconfig.xml.intermediate
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\layout.resfiles
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\layout.resfiles.intermediate
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\resources.resfiles
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\resources.resfiles.intermediate
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\pri.resfiles
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\pri.resfiles.intermediate
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\qualifiers.txt
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\qualifiers.txt.intermediate
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\ProjectArchitectures.txt

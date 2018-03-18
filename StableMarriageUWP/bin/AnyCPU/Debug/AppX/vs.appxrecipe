@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ARCTICSSD</Machine>
+    <WindowsUser>rafisantu</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>26802RafiHaque.HicappoStableMatchingSolution</PackageIdentityName>
+    <PackageIdentityPublisher>CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C423CB81EF7804084C10A7748FBE78B4CCC9A0ECBF0BD62691B894E412198F80</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>26802RafiHaque.HicappoStableMatchingSolution_1.1.8.0_neutral__5rqd7vc6a1wzr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>26802RafiHaque.HicappoStableMatchingSolution_5rqd7vc6a1wzr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>26802RafiHaque.HicappoStableMatchingSolution</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.8.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-18T05:08:37.414</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-03-03T04:49:40.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-03T05:33:33.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-03T05:36:52.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-03T05:38:34.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-03T05:30:44.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-03T05:34:45.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2017-09-29T01:28:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-03-18T05:03:24.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriage\bin\Debug\StableMarriage.exe">
+      <PackagePath>StableMarriage\StableMarriage.exe</PackagePath>
+      <Modified>2018-03-18T05:08:27.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriage\bin\Debug\StableMarriage.exe.config">
+      <PackagePath>StableMarriage\StableMarriage.exe.config</PackagePath>
+      <Modified>2018-01-16T03:36:12.215</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

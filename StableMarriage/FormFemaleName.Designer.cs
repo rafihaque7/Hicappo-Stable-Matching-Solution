@@ -71,7 +71,7 @@
             this.Controls.Add(this.labelFemaleName);
             this.MaximizeBox = false;
             this.Name = "FormFemaleName";
-            this.Text = "FormFemaleName";
+            this.Text = "Add a Female";
             this.ResumeLayout(false);
             this.PerformLayout();
 

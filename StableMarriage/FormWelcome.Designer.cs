@@ -62,7 +62,7 @@
             this.Controls.Add(this.buttonGetstarted);
             this.Controls.Add(this.label2);
             this.Name = "FormWelcome";
-            this.Text = "Stable Marriage";
+            this.Text = "Hicappo Stable Matching Solution";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,9 +70,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textTotalpeople;
-        private System.Windows.Forms.Button buttonTotalpeople;
+
+
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonGetstarted;
     }

@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(901, 822);
             this.Controls.Add(this.labelResult);
             this.Name = "FormResult";
-            this.Text = "FormResult";
+            this.Text = "Hicappo Stable Matching Solution";
             this.ResumeLayout(false);
             this.PerformLayout();
 
