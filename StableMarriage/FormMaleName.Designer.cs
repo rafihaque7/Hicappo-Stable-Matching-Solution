@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMaleName));
             this.labelMaleName = new System.Windows.Forms.Label();
             this.textMaleName = new System.Windows.Forms.TextBox();
             this.buttonAddMale = new System.Windows.Forms.Button();
@@ -69,6 +70,7 @@
             this.Controls.Add(this.buttonAddMale);
             this.Controls.Add(this.textMaleName);
             this.Controls.Add(this.labelMaleName);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormMaleName";
             this.Text = "Add a Male";

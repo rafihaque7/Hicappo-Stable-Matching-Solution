@@ -7,14 +7,14 @@
     <framework targetVersion="4.6.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="StableMarriage.exe.manifest" size="3495">
+    <dependentAssembly dependencyType="install" codebase="StableMarriage.exe.manifest" size="3496">
       <assemblyIdentity name="StableMarriage.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VrlarCElTcLqf8+dsVUoG4h6LT4nq1f7tT7b3R0ZU/o=</dsig:DigestValue>
+        <dsig:DigestValue>l6vAk3guof0V+bXKffiWfRi0CXl+OL/D1kRWRHQv1qU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

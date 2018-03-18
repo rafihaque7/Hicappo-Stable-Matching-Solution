@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainInput));
             this.listViewMale = new System.Windows.Forms.ListView();
             this.listViewFemale = new System.Windows.Forms.ListView();
             this.labelMale = new System.Windows.Forms.Label();
@@ -206,6 +207,7 @@
             this.Controls.Add(this.listViewFemale);
             this.Controls.Add(this.listViewMale);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormMainInput";
             this.Text = "Hicappo Stable Matching Solution";

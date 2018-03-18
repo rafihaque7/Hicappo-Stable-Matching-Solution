@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StableMarriage.exe" size="887768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StableMarriage.exe" size="1083352">
       <assemblyIdentity name="StableMarriage" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BA/GP25Pr7qx+MTraDCvXq72/MtLk5k4Lnvk5LfjP9w=</dsig:DigestValue>
+        <dsig:DigestValue>F4rCi41reBhzM+xfyX6xWx1JsDjZliCHLniJZMtqHo4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

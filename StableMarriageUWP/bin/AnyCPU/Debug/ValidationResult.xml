@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
-<REPORT xml:lang="en-US" OVERALL_RESULT="PASS" VERSION="10.0.16299.15" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" APP_NAME="26802RafiHaque.HicappoStableMatchingSolution" APP_VERSION="1.1.8.0" OSVERSION="10.0.16299.0" OS="Microsoft Windows 10 Education" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1033" VALIDATION_TYPE="UI" ReportGenerationTime="3/2/2018 9:39:49 PM" ID="6e91da741d48065ea7b31e138bce3392">
+<REPORT xml:lang="en-US" OVERALL_RESULT="PASS" VERSION="10.0.16299.15" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="x64" SecureBoot="FALSE" APP_TYPE="Centennial" PUBLISHER_DISPLAY_NAME="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" APP_NAME="26802RafiHaque.HicappoStableMatchingSolution" APP_VERSION="1.1.9.0" OSVERSION="10.0.16299.0" OS="Microsoft Windows 10 Education" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1033" VALIDATION_TYPE="UI" ReportGenerationTime="3/17/2018 10:22:50 PM" ID="b984f4a87003a2aa7f1a47700fdbe0aa">
   <REQUIREMENTS>
     <REQUIREMENT NUMBER="3" TITLE="Digitally signed file test" RATIONALE="An Authenticode digital signature allows users to be sure that the software is genuine. It also allows detection if a file has been tampered with e.g. infected by a virus.">
       <TEST INDEX="2" NAME="Install signed driver and executable files" DESCRIPTION="Install signed driver and executable files." EXECUTIONTIME="00h:00m:01s.48ms" OPTIONAL="TRUE">
@@ -9,31 +9,31 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="6" TITLE="User account control (UAC) test" RATIONALE="Most applications do not require administrator privileges at run time, and should be just fine running as a standard-user. Windows applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application.">
-      <TEST INDEX="11" NAME="User account control run level" DESCRIPTION="Windows® applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." EXECUTIONTIME="00h:00m:01s.03ms" OPTIONAL="FALSE">
+      <TEST INDEX="11" NAME="User account control run level" DESCRIPTION="Windows® applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." EXECUTIONTIME="00h:00m:01s.02ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="12" TITLE="Package compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
-      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:01s.11ms" OPTIONAL="FALSE">
+      <TEST INDEX="77" NAME="Application count" DESCRIPTION="One package should not define more than one app in the manifest." EXECUTIONTIME="00h:00m:01s.13ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.79ms" OPTIONAL="FALSE">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:01s.82ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:00s.98ms" OPTIONAL="TRUE">
+      <TEST INDEX="87" NAME="File association verbs" DESCRIPTION="Registry validation that no registered file association verbs are installed." EXECUTIONTIME="00h:00m:01s.13ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="86" NAME="Registry checks" DESCRIPTION="Registry validation that drivers are not installed and NT Services are not installed." EXECUTIONTIME="00h:00m:01s.02ms" OPTIONAL="FALSE">
+      <TEST INDEX="86" NAME="Registry checks" DESCRIPTION="Registry validation that drivers are not installed and NT Services are not installed." EXECUTIONTIME="00h:00m:01s.04ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
-      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.30ms" OPTIONAL="FALSE">
+      <TEST INDEX="70" NAME="Banned file analyzer" DESCRIPTION="Analysis of application to detect known insecure files" EXECUTIONTIME="00h:00m:01s.25ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -43,35 +43,35 @@
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
-      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:01s.61ms" OPTIONAL="FALSE">
+      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:01s.67ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="19" TITLE="App manifest resources tests" RATIONALE="The App Package Manifest should have valid resources defined in the resources.pri file, as per the App Packaging Specification and App Manifest Schema.">
-      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.66ms" OPTIONAL="FALSE">
+      <TEST INDEX="45" NAME="App resources" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.78ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:02s.01ms" OPTIONAL="FALSE">
+      <TEST INDEX="61" NAME="Branding" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:02s.05ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
-      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.82ms" OPTIONAL="TRUE">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:01s.81ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
-      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:01s.15ms" OPTIONAL="FALSE">
+      <TEST INDEX="52" NAME="Special use capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:01s.14ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
-      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.00ms" OPTIONAL="FALSE">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:08s.47ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -79,25 +79,25 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.83ms" OPTIONAL="FALSE">
+      <TEST INDEX="55" NAME="Type name case-sensitivity" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.86ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.83ms" OPTIONAL="FALSE">
+      <TEST INDEX="54" NAME="Type name correctness" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.86ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:07s.95ms" OPTIONAL="FALSE">
+      <TEST INDEX="58" NAME="General metadata correctness" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:07s.92ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.77ms" OPTIONAL="FALSE">
+      <TEST INDEX="53" NAME="Properties" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.74ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
     </REQUIREMENT>
     <REQUIREMENT NUMBER="25" TITLE="Package sanity test" RATIONALE="Validation of the app package contents to ensure correctness.">
-      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.25ms" OPTIONAL="TRUE">
+      <TEST INDEX="89" NAME="Archive files usage" DESCRIPTION="Packages should not contain PE files inside archive files." EXECUTIONTIME="00h:00m:01s.24ms" OPTIONAL="TRUE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -105,7 +105,7 @@
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
-      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.32ms" OPTIONAL="FALSE">
+      <TEST INDEX="63" NAME="Platform appropriate files" DESCRIPTION="App should not install files that do not match the target processor architecture." EXECUTIONTIME="00h:00m:01s.33ms" OPTIONAL="FALSE">
         <MESSAGES />
         <RESULT><![CDATA[PASS]]></RESULT>
       </TEST>
@@ -113,12 +113,12 @@
   </REQUIREMENTS>
   <APPLICATIONS>
     <Installed_Programs>
-      <Program Name="26802RafiHaque.HicappoStableMatchingSolution" Type="Application" Source="AppxPackage" Publisher="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" Version="1.1.8.0" Language="1033" InstallDate="" OSVersionAtInstallTime="10.0.0.16299" RootDirPath="C:\WINDOWS\temp\appcert_031c\26802rafihaque.hicappostablematchingsolution_1.1.8.0_neutral__5rqd7vc6a1wzr" Id="00002bb2e103bb9bad735bffc68d8df48bc600000904" HiddenArp="false">
+      <Program Name="26802RafiHaque.HicappoStableMatchingSolution" Type="Application" Source="AppxPackage" Publisher="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" Version="1.1.9.0" Language="1033" InstallDate="" OSVersionAtInstallTime="10.0.0.16299" RootDirPath="C:\WINDOWS\temp\appcert_1ab8\26802rafihaque.hicappostablematchingsolution_1.1.9.0_neutral__5rqd7vc6a1wzr" Id="0000cae22ab257dd5ffc15e160c4c047b62200000904" HiddenArp="false">
         <Indicators>
           <WindowsStoreAppManifestIndicators>
-            <PackageManifest PackageFullName="26802RafiHaque.HicappoStableMatchingSolution_1.1.8.0_neutral__5rqd7vc6a1wzr">
+            <PackageManifest PackageFullName="26802RafiHaque.HicappoStableMatchingSolution_1.1.9.0_neutral__5rqd7vc6a1wzr">
               <Package>
-                <Identity Name="26802RafiHaque.HicappoStableMatchingSolution" Publisher="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" Version="1.1.8.0" ProcessorArchitecture="neutral" />
+                <Identity Name="26802RafiHaque.HicappoStableMatchingSolution" Publisher="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" Version="1.1.9.0" ProcessorArchitecture="neutral" />
                 <Properties>
                   <DisplayName>Hicappo Stable Matching Solution</DisplayName>
                   <PublisherDisplayName>Rafi Haque</PublisherDisplayName>
@@ -153,9 +153,9 @@
             </PackageManifest>
             <BundleManifest PackageFamilyName="26802RafiHaque.HicappoStableMatchingSolution_5rqd7vc6a1wzr">
               <Bundle SchemaVersion="3.0">
-                <Identity Name="26802RafiHaque.HicappoStableMatchingSolution" Publisher="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" Version="1.1.8.0" />
+                <Identity Name="26802RafiHaque.HicappoStableMatchingSolution" Publisher="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" Version="1.1.9.0" />
                 <Packages>
-                  <Package Type="application" Version="1.1.8.0" Architecture="neutral" FileName="StableMarriageUWP_1.1.8.0_AnyCPU.appx" Offset="67" Size="2314277">
+                  <Package Type="application" Version="1.1.9.0" Architecture="neutral" FileName="StableMarriageUWP_1.1.9.0_AnyCPU.appx" Offset="67" Size="2323691">
                     <Resources>
                       <Resource Language="EN-US" />
                       <Resource Scale="200" />
@@ -168,16 +168,16 @@
         </Indicators>
         <StaticProperties>
           <Files Id="">
-            <File Id="0000f4a9d87047347e7f2f20ea6a811a28361c4f56f2" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-478863011" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="C:\WINDOWS\temp\appcert_031c\26802rafihaque.hicappostablematchingsolution_1.1.8.0_neutral__5rqd7vc6a1wzr\resources.pri" />
-            <File Id="00003a4703939b0b3eca4e3a1c6507ee3da82123e1dc" Name="StableMarriage.exe" ProductName="stablemarriage" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="909312" SizeOfImage="909312" PeHeaderHash="01012a3fff9cdc5d60592ba48459ddd77437772e63b6" PeChecksum="0" CrcChecksum="-1361267640" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="stablemarriage" LegalCopyright="copyright ©  2018" LinkDate="03/03/2018 05:19:17" BinaryType="pe32_clr_il_prefer32" LowerCaseLongPath="C:\WINDOWS\temp\appcert_031c\26802rafihaque.hicappostablematchingsolution_1.1.8.0_neutral__5rqd7vc6a1wzr\stablemarriage\stablemarriage.exe" />
-            <File Id="000030dac5c7d689ae2495a6c5bb47c3cb141b2c1d68" Name="Windows.winmd" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="5742592" SizeOfImage="5742592" PeHeaderHash="0101561a12d1ed2134466d71c0db3529941e878e2859" PeChecksum="5757374" CrcChecksum="1244531164" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="09/29/2017 00:28:07" BinaryType="pe32_clr_il" LowerCaseLongPath="C:\WINDOWS\temp\appcert_031c\26802rafihaque.hicappostablematchingsolution_1.1.8.0_neutral__5rqd7vc6a1wzr\winmetadata\windows.winmd" />
+            <File Id="0000f4a9d87047347e7f2f20ea6a811a28361c4f56f2" Name="resources.pri" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="0" SizeOfImage="0" PeHeaderHash="" PeChecksum="0" CrcChecksum="-478863011" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="" BinaryType="data_only" LowerCaseLongPath="C:\WINDOWS\temp\appcert_1ab8\26802rafihaque.hicappostablematchingsolution_1.1.9.0_neutral__5rqd7vc6a1wzr\resources.pri" />
+            <File Id="00007c073e390760f76e361d69290bf98f23be6e4ff0" Name="StableMarriage.exe" ProductName="stablemarriage" CompanyName="" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0" FileVersion="1.0.0.0" Size="1024000" SizeOfImage="1024000" PeHeaderHash="0101af1f1ac9ab2ebc850b6809b076ebe91417ae9f9e" PeChecksum="0" CrcChecksum="1576483251" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="stablemarriage" LegalCopyright="copyright ©  2018" LinkDate="03/18/2018 05:21:03" BinaryType="pe32_clr_il_prefer32" LowerCaseLongPath="C:\WINDOWS\temp\appcert_1ab8\26802rafihaque.hicappostablematchingsolution_1.1.9.0_neutral__5rqd7vc6a1wzr\stablemarriage\stablemarriage.exe" />
+            <File Id="000030dac5c7d689ae2495a6c5bb47c3cb141b2c1d68" Name="Windows.winmd" ProductName="" CompanyName="" ProductVersion="" VerLanguage="0" SwitchBackContext="0" FileVersion="" Size="5742592" SizeOfImage="5742592" PeHeaderHash="0101561a12d1ed2134466d71c0db3529941e878e2859" PeChecksum="5757374" CrcChecksum="1244531164" BinProductVersion="" BinFileVersion="" FileDescription="" LegalCopyright="" LinkDate="09/29/2017 00:28:07" BinaryType="pe32_clr_il" LowerCaseLongPath="C:\WINDOWS\temp\appcert_1ab8\26802rafihaque.hicappostablematchingsolution_1.1.9.0_neutral__5rqd7vc6a1wzr\winmetadata\windows.winmd" />
           </Files>
         </StaticProperties>
       </Program>
     </Installed_Programs>
   </APPLICATIONS>
   <DEPENDENCY_INFORMATION>
-    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.60" DictionaryVersion="3.2" Type="Max" Id="C:\WINDOWS\temp\appcert_031C\26802RafiHaque.HicappoStableMatchingSolution_1.1.8.0_neutral__5rqd7vc6a1wzr">
+    <AitStaticAnalysis ProgramId="0000da39a3ee5e6b4b0d3255bfef95601890afd80709" AnalysisVersion="1.60" DictionaryVersion="3.2" Type="Max" Id="C:\WINDOWS\temp\appcert_1AB8\26802RafiHaque.HicappoStableMatchingSolution_1.1.9.0_neutral__5rqd7vc6a1wzr">
       <AitFile ErrorCode="0" Name="Windows.winmd" Id="000030dac5c7d689ae2495a6c5bb47c3cb141b2c1d68">
         <AitCategory Id="Com">
           <AitFeature Name="{000440f9-f7fd-417d-89e1-fbb0382adc4d}" />
@@ -35178,7 +35178,7 @@
           <AitFeature Name="Windows.Web.WebErrorStatus" />
         </AitCategory>
       </AitFile>
-      <AitFile FrameworkMoniker=".NETFramework,Version=v4.6.1" ErrorCode="0" Name="StableMarriage.exe" Id="00003a4703939b0b3eca4e3a1c6507ee3da82123e1dc">
+      <AitFile FrameworkMoniker=".NETFramework,Version=v4.6.1" ErrorCode="0" Name="StableMarriage.exe" Id="00007c073e390760f76e361d69290bf98f23be6e4ff0">
         <AitCategory Id="ApiStatic">
           <AitFeature Name="mscoree.dll!_CorExeMain" />
         </AitCategory>
@@ -35193,6 +35193,8 @@
           <AitFeature Name="System.Collections.IEnumerator" />
           <AitFeature Name="System.Collections.IEnumerator.MoveNext" />
           <AitFeature Name="System.Collections.IEnumerator.get_Current" />
+          <AitFeature Name="System.ComponentModel.ComponentResourceManager" />
+          <AitFeature Name="System.ComponentModel.ComponentResourceManager..ctor" />
           <AitFeature Name="System.ComponentModel.EditorBrowsableAttribute" />
           <AitFeature Name="System.ComponentModel.EditorBrowsableAttribute..ctor" />
           <AitFeature Name="System.ComponentModel.EditorBrowsableState" />
@@ -35224,6 +35226,7 @@
           <AitFeature Name="System.Drawing.Font..ctor" />
           <AitFeature Name="System.Drawing.FontStyle" />
           <AitFeature Name="System.Drawing.GraphicsUnit" />
+          <AitFeature Name="System.Drawing.Icon" />
           <AitFeature Name="System.Drawing.Image" />
           <AitFeature Name="System.Drawing.Point" />
           <AitFeature Name="System.Drawing.Point..ctor" />
@@ -35342,6 +35345,7 @@
           <AitFeature Name="System.Windows.Forms.Form.set_AcceptButton" />
           <AitFeature Name="System.Windows.Forms.Form.set_ClientSize" />
           <AitFeature Name="System.Windows.Forms.Form.set_FormBorderStyle" />
+          <AitFeature Name="System.Windows.Forms.Form.set_Icon" />
           <AitFeature Name="System.Windows.Forms.Form.set_MaximizeBox" />
           <AitFeature Name="System.Windows.Forms.FormBorderStyle" />
           <AitFeature Name="System.Windows.Forms.IButtonControl" />

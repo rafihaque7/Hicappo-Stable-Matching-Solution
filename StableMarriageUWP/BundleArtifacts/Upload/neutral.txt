@@ -1,2 +1,2 @@
-MainPackage=C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Release\Upload\StableMarriageUWP_1.1.8.0_AnyCPU.appx
-SymbolPackage=C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Release\Upload\StableMarriageUWP_1.1.8.0\StableMarriageUWP_1.1.8.0_AnyCPU.appxsym
+MainPackage=C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Release\Upload\StableMarriageUWP_1.1.10.0_AnyCPU.appx
+SymbolPackage=C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Release\Upload\StableMarriageUWP_1.1.10.0\StableMarriageUWP_1.1.10.0_AnyCPU.appxsym

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTotalCount));
             this.label1 = new System.Windows.Forms.Label();
             this.textTotalCount = new System.Windows.Forms.TextBox();
             this.buttonTotalCount = new System.Windows.Forms.Button();
@@ -73,6 +74,7 @@
             this.Controls.Add(this.buttonTotalCount);
             this.Controls.Add(this.textTotalCount);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormTotalCount";
             this.Text = "Hicappo Stable Matching Solution";
             this.ResumeLayout(false);

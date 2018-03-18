@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormWelcome));
             this.label2 = new System.Windows.Forms.Label();
             this.buttonGetstarted = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -61,6 +62,7 @@
             this.ClientSize = new System.Drawing.Size(1087, 565);
             this.Controls.Add(this.buttonGetstarted);
             this.Controls.Add(this.label2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormWelcome";
             this.Text = "Hicappo Stable Matching Solution";
             this.ResumeLayout(false);

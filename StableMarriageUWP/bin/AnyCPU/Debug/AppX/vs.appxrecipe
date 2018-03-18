@@ -20,19 +20,19 @@
     <WindowsSdkPath>
     </WindowsSdkPath>
     <LayoutDir>C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>C423CB81EF7804084C10A7748FBE78B4CCC9A0ECBF0BD62691B894E412198F80</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>26802RafiHaque.HicappoStableMatchingSolution_1.1.8.0_neutral__5rqd7vc6a1wzr</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>972BE300727F86A9A882FEB23E6CA78832D53500CF2C0F70D164194B672B3B34</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>26802RafiHaque.HicappoStableMatchingSolution_1.1.9.0_neutral__5rqd7vc6a1wzr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>26802RafiHaque.HicappoStableMatchingSolution_5rqd7vc6a1wzr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>26802RafiHaque.HicappoStableMatchingSolution</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88</RegisteredPackagePublisher>
-    <RegisteredVersion>1.1.8.0</RegisteredVersion>
+    <RegisteredVersion>1.1.9.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-18T05:08:37.414</Modified>
+      <Modified>2018-03-18T05:27:01.727</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -72,11 +72,11 @@
     <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriageUWP\bin\AnyCPU\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-03-18T05:03:24.002</Modified>
+      <Modified>2018-03-18T05:25:43.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriage\bin\Debug\StableMarriage.exe">
       <PackagePath>StableMarriage\StableMarriage.exe</PackagePath>
-      <Modified>2018-03-18T05:08:27.794</Modified>
+      <Modified>2018-03-18T05:27:01.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rafisantu\source\repos\StableMarriage\StableMarriage\bin\Debug\StableMarriage.exe.config">
       <PackagePath>StableMarriage\StableMarriage.exe.config</PackagePath>

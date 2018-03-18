@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="26802RafiHaque.HicappoStableMatchingSolution" Publisher="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" Version="1.1.8.0" ProcessorArchitecture="neutral" />
+  <Identity Name="26802RafiHaque.HicappoStableMatchingSolution" Publisher="CN=0A03EAB1-95F5-461A-B52C-B184ED10AF88" Version="1.1.10.0" ProcessorArchitecture="neutral" />
   <Properties>
     <DisplayName>Hicappo Stable Matching Solution</DisplayName>
     <PublisherDisplayName>Rafi Haque</PublisherDisplayName>
